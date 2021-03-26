@@ -7,11 +7,10 @@
     font-weight: regular;
     font-style: normal;
  }
+ body
+ {
 
-p {
-
-color: red;
-font-size:large;
-font-family: "Raleway", Arial, serif;
+    font-family: "Raleway", Arial, sans-serif;
 
  }
+ 
