@@ -7,10 +7,10 @@
     font-weight: regular;
     font-style: normal;
  }
+ body
+ {
 
-p, h1, h2
-{
-color: black;
-font-family: "Raleway", Arial, serif;
+    font-family: "Raleway", Arial, sans-serif;
 
  }
+ 
