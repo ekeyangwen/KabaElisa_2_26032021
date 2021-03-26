@@ -1,0 +1,17 @@
+@font-face 
+ /* Définition d'une nouvelle police nommée Raleway */
+ {
+	font-family: 'Raleway';
+    src: url('Font/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('Font/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: regular;
+    font-style: normal;
+ }
+
+p {
+
+color: red;
+font-size:large;
+font-family: "Raleway", Arial, serif;
+
+ }
