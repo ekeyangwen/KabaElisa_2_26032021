@@ -104,7 +104,7 @@ a:hover
 {
 
    text-decoration: none;
-   color: gray
+   color:#E5E5E5
 }
 
 .h1
@@ -112,4 +112,24 @@ a:hover
 padding:0px;
 margin: 0px;
 
+}
+.fa-map-marker-alt
+{
+background-color: #0065fc;;
+font-size: 15px;
+border-radius: 10px 0 0 10px;
+
+}
+
+.search_bouton
+{
+   color:white;
+   background-color: #0065FC;
+   border: none
+}
+.city
+{
+   background-color: none;
+   border: none;
+   box-shadow:none;
 }
