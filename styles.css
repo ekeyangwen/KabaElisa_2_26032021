@@ -84,10 +84,32 @@ flex-wrap: nowrap;
 .boutonmenu
 {
  padding-right: 20px;
-
+ color:#0065FC;
+ font-weight: bold;
+ 
 }
 
+a:link
+{
+text-decoration: none;
+color: #0065fc;
 
-color:#0065FC;
-font-weight: bold;
+}
+a:visited
+{
+   text-decoration: none;
+   color: #0065FC;
+}
+a:hover
+{
+
+   text-decoration: none;
+   color: gray
+}
+
+.h1
+{
+padding:0px;
+margin: 0px;
+
 }
