@@ -45,3 +45,16 @@ height: 125px;
 width:188px;
 height: 125px;   
 }
+
+.section_2
+{
+display: flex;
+flex-direction: row;
+align-items:flex-start;
+}
+
+h1
+{
+   margin-block-start: 1em;
+   margin-block-end: 0.83em;
+}
