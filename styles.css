@@ -192,6 +192,17 @@ padding: 13px;
 border-radius: 20px;
 }
 
+.fa-info
+{
+   border: solid 3px;
+   border-color: #F2F2F2;
+   color: #0065FC;
+   background-color: white;
+   padding-right: 6px;
+   padding-left: 6px;
+   border-radius: 40px;
+   }
+}
 
 .section_2
 {
