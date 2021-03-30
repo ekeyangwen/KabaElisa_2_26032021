@@ -45,7 +45,17 @@ height: 125px;
 width:188px;
 height: 125px;   
 }
+.coeurdelo
+{
+width:188px;
+height:125px;
+}
+.bleublanc
+{
+width:188px;
+height:125px;
 
+}
 .section_2
 {
 display: flex;
@@ -64,7 +74,7 @@ flex-wrap: wrap;
 display: flex;
 justify-content: space-between;
 }
-.head
+.header
 {
 display: flex;
 justify-content: space-between;
