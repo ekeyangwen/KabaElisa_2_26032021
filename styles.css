@@ -109,45 +109,90 @@ border-radius: 0px 10px 10px 0px;
 font-weight: bold;
 margin:10px;
 display: flex;
-justify-content: space-between;
+justify-content: flex-start;
 flex-wrap: nowrap;
+word-spacing: 10px;
+align-items: center;
+}
+.theme
+{
+   align-content: center;
+   margin: 20px;
+   padding-right: 10px;
 }
 .eco
 {
-   border: 1px;
+   border-top: solid 3  px;
+   border-bottom: solid 3px;
+   border-right: solid 3px;
+   border-radius: 20px;
+   border-color:#F4F4F4;
+   padding-right: 10px;
+   margin: 20px;
+
+}
+.fam
+{
+   border-top: solid 3px;
+   border-bottom: solid 3px;
+   border-right: solid 3px;
+   border-radius: 20px;
    border-color:#F2F2F2;
+   padding-right: 10px;
+   margin: 20px;
+}
+.rom
+{
+
+   border-top: solid 3px;
+   border-bottom: solid 3px;
+   border-right: solid 3px;
+   border-radius: 20px;
+   border-color:#F2F2F2;
+   padding-right: 10px;
+   margin: 20px;
+}
+.dog
+{
+
+   border-top: solid 3px;
+   border-bottom: solid 3px;
+   border-right: solid 3px;
+   border-radius: 20px;
+   border-color:#F2F2F2;
+   padding-right: 10px;
+   margin: 20px;
 }
 .fa-money-bill-wave
 {
    color: #0065FC;
    background-color:#DEECFF;
-   padding: 10px;
+   padding: 13px;
    border-radius: 20px;
    }
 .fa-child
 {
    color:#0065FC;
    background-color:#DEECFF;
-   font-size: 15px;
-   padding: 10px;
-   border-radius: 20px;
+   padding: 13px;
+   border-radius: 30px;
    }
 .fa-heart
 {
    color: #0065FC;
    background-color:#DEECFF;
-   font-size: 15px;
-   padding: 10px;
+   padding: 13px;
    border-radius: 20px;
    }
 .fa-dog
 {
    color: #0065FC;
 background-color:#DEECFF;
-font-size: 15px;
-padding: 10px;
+padding: 13px;
 border-radius: 20px;
 }
+
+
 .section_2
 {
 display: flex;
