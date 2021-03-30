@@ -11,6 +11,7 @@
  {
 
     font-family: "Raleway", Arial, sans-serif;
+   line-height: 1.5em;
 
  }
  
@@ -70,6 +71,83 @@ justify-content: space-between;
 flex-wrap: nowrap;
 }
 
+.menubleu ul li
+{
+display: inline-block;
+list-style-type:none;
+}
+.menubleu a
+{
+   text-decoration: none;
+   color: #0065FC;
+   margin: 20px;
+}
+
+.fa-map-marker-alt
+
+{
+background-color: #F2F2F2;
+font-size: 15px;
+padding: 10px;
+border-radius: 10px 0 0 10px;
+}
+
+.input
+{
+outline: none;
+}
+.search_bouton
+{
+background-color: #0065fc;
+font-size: 15px;
+margin: 10px;
+border-radius: 0px 10px 10px 0px;
+   
+}
+.filtres
+{
+font-weight: bold;
+margin:10px;
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+}
+.eco
+{
+   border: 1px;
+   border-color:#F2F2F2;
+}
+.fa-money-bill-wave
+{
+   color: #0065FC;
+   background-color:#DEECFF;
+   padding: 10px;
+   border-radius: 20px;
+   }
+.fa-child
+{
+   color:#0065FC;
+   background-color:#DEECFF;
+   font-size: 15px;
+   padding: 10px;
+   border-radius: 20px;
+   }
+.fa-heart
+{
+   color: #0065FC;
+   background-color:#DEECFF;
+   font-size: 15px;
+   padding: 10px;
+   border-radius: 20px;
+   }
+.fa-dog
+{
+   color: #0065FC;
+background-color:#DEECFF;
+font-size: 15px;
+padding: 10px;
+border-radius: 20px;
+}
 .section_2
 {
 display: flex;
@@ -84,17 +162,6 @@ display: flex;
 justify-content: space-between;
 }
 
-.menubleu ul li
-{
-display: inline-block;
-list-style-type:none;
-}
-.menubleu a
-{
-   text-decoration: none;
-   color: #0065FC;
-   margin: 20px;
-}
 .hebergements
 {
  padding-right: 20px;
@@ -109,14 +176,6 @@ padding:0px;
 margin: 0px;
 
 }
-.fa-map-marker-alt
-{
-background-color: #0065fc;;
-font-size: 15px;
-padding: 10px;
-border-radius: 10px 0 0 10px;
-}
-
 .i
 {
 color: #0065fc;
