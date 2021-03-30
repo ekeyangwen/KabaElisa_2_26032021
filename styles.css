@@ -56,31 +56,34 @@ width:188px;
 height:125px;
 
 }
-.section_2
-{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-}
 .soleil
 {
    width:188px;
    height: 125px;
 
 }
+
+.header
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+}
+
+.section_2
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
 .hebergementspop
 {
 
 display: flex;
 justify-content: space-between;
 }
-.header
-{
-display: flex;
-justify-content: space-between;
-flex-wrap: nowrap;
 
-}
 .ul
 {
    list-style: none;
@@ -127,6 +130,7 @@ margin: 0px;
 {
 background-color: #0065fc;;
 font-size: 15px;
+padding: 10px;
 border-radius: 10px 0 0 10px;
 
 }
