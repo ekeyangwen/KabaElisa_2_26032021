@@ -84,40 +84,23 @@ display: flex;
 justify-content: space-between;
 }
 
-.ul
+.menubleu ul li
 {
-   list-style: none;
+display: inline-block;
+list-style-type:none;
 }
-
-.menulien
+.menubleu a
 {
-   display: flex;
-   justify-content: space-between;
+   text-decoration: none;
+   color: #0065FC;
+   margin: 20px;
 }
-.boutonmenu
+.hebergements
 {
  padding-right: 20px;
  color:#0065FC;
  font-weight: bold;
  
-}
-
-a:link
-{
-text-decoration: none;
-color: #0065fc;
-
-}
-a:visited
-{
-   text-decoration: none;
-   color: #0065FC;
-}
-a:hover
-{
-
-   text-decoration: none;
-   color:#E5E5E5
 }
 
 .h1
@@ -132,7 +115,15 @@ background-color: #0065fc;;
 font-size: 15px;
 padding: 10px;
 border-radius: 10px 0 0 10px;
+}
 
+.i
+{
+color: #0065fc;
+background-color: #DEECFF;
+font-size: 15px;
+padding: 10px;
+border-radius: 10px 0 0 10px;
 }
 
 .search_bouton
