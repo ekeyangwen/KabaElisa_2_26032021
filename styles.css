@@ -46,6 +46,12 @@ height: 125px;
 width:188px;
 height: 125px;   
 }
+.soleil
+{
+   width:188px;
+   height: 125px;
+
+}
 .coeurdelo
 {
 width:188px;
@@ -57,7 +63,43 @@ width:188px;
 height:125px;
 
 }
-.soleil
+
+
+.port
+{
+   width:188px;
+   height: 125px;
+
+}
+.fort
+{
+   width:188px;
+   height: 125px;
+
+}
+
+.frioul
+{
+   width:188px;
+   height: 125px;
+
+}
+
+.calanques
+{
+   width:188px;
+   height: 125px;
+
+}
+
+.lagarde
+{
+   width:188px;
+   height: 125px;
+
+}
+
+.longchamp
 {
    width:188px;
    height: 125px;
@@ -202,23 +244,32 @@ border-radius: 20px;
    padding-left: 6px;
    border-radius: 40px;
    }
-}
 
-.section_2
-{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-}
-
-.hebergementspop
-{
-
-display: flex;
-justify-content: space-between;
-}
-
-.hebergements
+   .hebergementspop
+   {
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row;
+  
+   }
+   .section_2
+   {
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-right: 20px;
+   }
+   
+   .section_3
+   {
+   display:flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   flex-wrap: nowrap;
+   margin-left: 20px;
+      }
+   
+   .hebergements
 {
  padding-right: 20px;
  color:#0065FC;
