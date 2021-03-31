@@ -149,11 +149,11 @@ border-radius: 0px 10px 10px 0px;
 .filtres
 {
 font-weight: bold;
+font-size: 10px;
 margin:10px;
 display: flex;
 justify-content: flex-start;
 flex-wrap: nowrap;
-word-spacing: 10px;
 align-items: center;
 }
 .theme
@@ -249,16 +249,43 @@ border-radius: 20px;
    {
    display: flex;
    justify-content: space-between;
-   flex-flow: row;
+   flex-direction: row;
   
-   }
+   }  
+
+.plaquette_2
+{
+   display:flex;
+   flex-direction: column;
+   background-color: #F2F2F2;
+   margin: 20px;
+   padding: 20px;
+}
+   .titre_section2
+   {
+      display:flex;
+      justify-content: flex-start;
+
+         }
+
    .section_2
    {
    display:flex;
    justify-content: space-between;
+   flex-direction:row;
    flex-wrap: wrap;
-   margin-right: 20px;
+   
+  
    }
+
+.bouton
+{
+
+  display:flex;
+      justify-content: flex-start;
+}
+
+
    
    .section_3
    {
@@ -266,7 +293,9 @@ border-radius: 20px;
    flex-direction: column;
    justify-content: flex-end;
    flex-wrap: nowrap;
-   margin-left: 20px;
+   margin: 20px;
+   padding: 20px;
+   background-color: #F2F2F2;
       }
    
    .hebergements
