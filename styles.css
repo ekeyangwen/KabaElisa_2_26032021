@@ -125,24 +125,42 @@ list-style-type:none;
    margin: 20px;
 }
 
+.titre_section1
+{
+   padding:0rem;
+   margin:0rem;
+   line-height: 0.2rem;
+}
+.formulaire
+{
+   margin-top: 1rem;
+}
 .fa-map-marker-alt
 
 {
 background-color: #F2F2F2;
 font-size: 15px;
-padding: 10px;
+padding: 0.75rem;
+padding-bottom: 0.93rem;
 border-radius: 10px 0 0 10px;
+margin: 0rem;
 }
 
-.input
+.champville
 {
-outline: none;
+border:solid;
+border-color: #F2F2F2;
+padding: 0.7rem;
+margin:0rem;
+margin-left: -0.25rem;
+
 }
 .search_bouton
 {
 background-color: #0065fc;
 font-size: 15px;
-margin: 10px;
+margin: -0.5rem;
+padding: 0.7rem;
 border-radius: 0px 10px 10px 0px;
    
 }
