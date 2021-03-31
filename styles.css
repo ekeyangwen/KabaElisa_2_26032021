@@ -10,10 +10,246 @@
  body
  {
 
-p {
-
-color: red;
-font-size:large;
-font-family: "Raleway", Arial, serif;
+    font-family: "Raleway", Arial, sans-serif;
+   line-height: 1.5em;
 
  }
+ 
+.cannebiere
+{
+width: 188px;
+height: 125px ;
+
+}
+.port
+{
+width: 188px;
+height: 125px ;
+}
+.mouettes
+{
+width:188px;
+height: 125px;
+}
+.mer
+{
+width:188px;
+height: 125px;   
+}
+.panier
+{
+width:188px;
+height: 125px;   
+}
+.amina
+{
+width:188px;
+height: 125px;   
+}
+.coeurdelo
+{
+width:188px;
+height:125px;
+}
+.bleublanc
+{
+width:188px;
+height:125px;
+
+}
+.soleil
+{
+   width:188px;
+   height: 125px;
+
+}
+
+.header
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+}
+
+.menubleu ul li
+{
+display: inline-block;
+list-style-type:none;
+}
+.menubleu a
+{
+   text-decoration: none;
+   color: #0065FC;
+   margin: 20px;
+}
+
+.fa-map-marker-alt
+
+{
+background-color: #F2F2F2;
+font-size: 15px;
+padding: 10px;
+border-radius: 10px 0 0 10px;
+}
+
+.input
+{
+outline: none;
+}
+.search_bouton
+{
+background-color: #0065fc;
+font-size: 15px;
+margin: 10px;
+border-radius: 0px 10px 10px 0px;
+   
+}
+.filtres
+{
+font-weight: bold;
+margin:10px;
+display: flex;
+justify-content: flex-start;
+flex-wrap: nowrap;
+word-spacing: 10px;
+align-items: center;
+}
+.theme
+{
+   align-content: center;
+   margin: 20px;
+   padding-right: 10px;
+}
+.eco
+{
+   border-top: solid 3  px;
+   border-bottom: solid 3px;
+   border-right: solid 3px;
+   border-radius: 20px;
+   border-color:#F4F4F4;
+   padding-right: 10px;
+   margin: 20px;
+
+}
+.fam
+{
+   border-top: solid 3px;
+   border-bottom: solid 3px;
+   border-right: solid 3px;
+   border-radius: 20px;
+   border-color:#F2F2F2;
+   padding-right: 10px;
+   margin: 20px;
+}
+.rom
+{
+
+   border-top: solid 3px;
+   border-bottom: solid 3px;
+   border-right: solid 3px;
+   border-radius: 20px;
+   border-color:#F2F2F2;
+   padding-right: 10px;
+   margin: 20px;
+}
+.dog
+{
+
+   border-top: solid 3px;
+   border-bottom: solid 3px;
+   border-right: solid 3px;
+   border-radius: 20px;
+   border-color:#F2F2F2;
+   padding-right: 10px;
+   margin: 20px;
+}
+.fa-money-bill-wave
+{
+   color: #0065FC;
+   background-color:#DEECFF;
+   padding: 13px;
+   border-radius: 20px;
+   }
+.fa-child
+{
+   color:#0065FC;
+   background-color:#DEECFF;
+   padding: 13px;
+   border-radius: 30px;
+   }
+.fa-heart
+{
+   color: #0065FC;
+   background-color:#DEECFF;
+   padding: 13px;
+   border-radius: 20px;
+   }
+.fa-dog
+{
+   color: #0065FC;
+background-color:#DEECFF;
+padding: 13px;
+border-radius: 20px;
+}
+
+.fa-info
+{
+   border: solid 3px;
+   border-color: #F2F2F2;
+   color: #0065FC;
+   background-color: white;
+   padding-right: 6px;
+   padding-left: 6px;
+   border-radius: 40px;
+   }
+}
+
+.section_2
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.hebergementspop
+{
+
+display: flex;
+justify-content: space-between;
+}
+
+.hebergements
+{
+ padding-right: 20px;
+ color:#0065FC;
+ font-weight: bold;
+ 
+}
+
+.h1
+{
+padding:0px;
+margin: 0px;
+
+}
+.i
+{
+color: #0065fc;
+background-color: #DEECFF;
+font-size: 15px;
+padding: 10px;
+border-radius: 10px 0 0 10px;
+}
+
+.search_bouton
+{
+   color:white;
+   background-color: #0065FC;
+   border: none
+}
+.city
+{
+   background-color: none;
+   border: none;
+   box-shadow:none;
+}
