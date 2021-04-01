@@ -16,6 +16,7 @@
    margin-right:2rem;
 
  }
+
  
 .cannebiere
 {
@@ -262,35 +263,29 @@ margin-left: -0.8rem;
    margin: 0.5rem;
    }
 
-   .hebergementspop
-   {
-   display: flex;
-   justify-content: space-between;
-   flex-direction: row;
-  
-   }  
-
 .plaquette_2
 {
    display:flex;
    flex-direction: column;
    background-color: #F2F2F2;
-   margin: 20px;
-   padding: 20px;
+   margin: 0.5rem;
+   width: 65%;
+   
 }
    .titre_section2
    {
-      display:flex;
-      justify-content: flex-start;
+padding-left: 3.3rem;
 
          }
-
+         
    .section_2
    {
    display:flex;
    justify-content: space-between;
    flex-direction:row;
    flex-wrap: wrap;
+   margin:0 3rem;
+   padding: 0.5rem;
    
   
    }
@@ -323,12 +318,6 @@ margin-left: -0.8rem;
  
 }
 
-.h1
-{
-padding:0px;
-margin: 0px;
-
-}
 .i
 {
 color: #0065fc;
