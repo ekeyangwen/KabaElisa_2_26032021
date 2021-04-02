@@ -259,7 +259,7 @@ margin-left: -0.8rem;
    justify-content: space-between;
    flex-direction: column;
    width: 80%;
-   padding: 0.5rem;
+   padding: 1.5rem;
    background-color: #F2F2F2;
    border-radius: 25px;
   
@@ -276,8 +276,10 @@ font-size:1rem;
 }
 .Plus_bouton
 {
-width: 10%;
-
+width: 20%;
+font-weight: bold;
+border: none;
+background-color:#F2F2F2;
 }
 .cartes
 {
