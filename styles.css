@@ -270,10 +270,7 @@ padding-left: 2rem;
 width: 50%;
 font-size:1rem;
  }
-.inf_2
-{
 
-}
 .Plus_bouton
 {
 width: 20%;
@@ -300,6 +297,20 @@ padding: 0.5rem;
 
 }
 
+.far
+{
+   
+      color:grey;
+      font-size: 0.8rem;
+    
+}
+.fas
+{
+   color: #0065FC;
+   font-size: 0.8rem;
+ 
+}
+
    .section_3
    {
    display:flex;
@@ -311,22 +322,7 @@ padding: 0.5rem;
    width: 25%;
       }
    
-   .hebergements
-{
- padding-right: 20px;
- color:#0065FC;
- font-weight: bold;
- 
-}
 
-.i
-{
-color: #0065fc;
-background-color: #DEECFF;
-font-size: 15px;
-padding: 10px;
-border-radius: 10px 0 0 10px;
-}
 
 .search_bouton
 {
