@@ -32,25 +32,6 @@ figcaption
    padding: 1rem;
 }
  
-
-
-.soleil
-{
-   width:188px;
-   height: 125px;
-
-}
-.coeurdelo
-{
-width:188px;
-height:125px;
-}
-.bleublanc
-{
-width:188px;
-height:125px;
-
-}
 .fort
 {
    width:188px;
@@ -335,19 +316,59 @@ object-fit: cover;
 
    .section_3
    {
-   display:flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 3rem;
-   padding: 1rem;
-   background-color: #F2F2F2;
-   width: 25%;
-      }
-   
-
-.carte_3
+      display: flex;
+      flex-direction: column;
+      margin-top: 0rem;
+      margin-left: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      background-color: #F2F2F2;
+      width: 38%;
+      border-radius: 25px;
+   }
+    
+.cartes_section3
 {
    display:flex;
-   flex-direction: row;
+   flex-direction: column;
 
+}
+  
+.titre_section3
+{
+   display: flex;
+   flex-direction: row;
+   font-weight: bold;
+}
+
+.fa-chart-line
+{
+   margin-left: 10rem;
+   margin-top: 1.5rem;
+   color: black;
+   font-size: 1rem;
+}
+
+.carte_3
+
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   border-radius:20px;
+   background-color: white;
+   width: 94%;
+   margin-bottom: 1.5rem;
+}
+
+.img_3
+
+{
+
+width: 50%;
+height: 135px;
+margin-top: -2rem;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+object-fit: cover;
 }
