@@ -421,10 +421,15 @@ height: 100%;
 
 {
 
-display: flex;
-flex-direction: column;
-border-radius:20px;
-background-color:yellow;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-radius: 20px;
+   width: 100%;
+   height: 35%;
+   margin-left: 0rem;
+   padding: 0rem;
+   background-color: yellow;
 
 }
 
@@ -434,7 +439,8 @@ background-color:yellow;
 
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-object-fit: cover;  
+object-fit: cover; 
+height: 50%; 
 
 }
 
