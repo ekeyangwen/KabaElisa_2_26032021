@@ -363,9 +363,6 @@ margin-top: 0rem;
 display: flex;
 flex-direction: row;
 
-
-
-
 }
 
 .section_4gauche
@@ -472,5 +469,118 @@ height: 50%;
 
 }
 .section_5
+
 {
+
+display: flex;
+flex-direction: row;
+width: 50%;
+}
+
+
+.section_5gauche
+{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius:20px;
+width: 42%;
+height: 66.5%;
+margin-left: -5rem;
+}
+.calanques-a
+{
+    width: 61%;
+    height: 42%;
+}
+
+.calanques
+{
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 20px;
+width: 161%;
+height: 127%;
+margin-left: 0rem;
+padding: 0rem;
+
+}
+
+.calanques_img  
+{
+
+
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+object-fit: cover;
+height: 124%; 
+
+}
+
+.section_5droite
+{
+
+display: flex;
+flex-direction: column;
+border-radius:20px;
+height: 65%;
+}
+
+.lagarde-a
+{
+width: 50%;
+height: 30%;
+}
+
+.lagarde
+
+{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 20px;
+margin-left: 2rem;
+
+
+}
+
+.lagarde_img
+{
+
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+object-fit: cover; 
+height: 100%; 
+
+}
+.longchamp-a
+{
+height:30%;
+width: 30%;
+}
+
+.longchamp
+{
+display: flex;
+flex-direction: column;
+border-radius:20px;
+width: 130%;
+height: 90%;
+margin-left: 2rem;
+
+
+
+}
+.longchamp_img
+{
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+object-fit: cover; 
+height: 50%; 
+
 }
