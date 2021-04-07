@@ -215,7 +215,8 @@ border-radius: 25px;
 {
 padding-left: 2rem;
 width: 50%;
-
+margin-top: 0rem;
+margin-bottom: 3rem;
 }
 
 .Plus_bouton
@@ -288,7 +289,7 @@ border-radius: 25px;
 {
 display:flex;
 flex-direction: column;
-
+height: 100%;
 }
 
 .titre_section3
@@ -296,6 +297,7 @@ flex-direction: column;
 display: flex;
 flex-direction: row;
 font-weight: bold;
+padding-top: 0rem;
 }
 
 .fa-chart-line
@@ -315,7 +317,7 @@ align-items: center;
 border-radius:20px;
 background-color: white;
 width: 94%;
-margin-bottom: 1.5rem;
+height: 69%;
 }
 
 .img_3
@@ -324,10 +326,11 @@ margin-bottom: 1.5rem;
 
 width: 50%;
 height: 135px;
-margin-top: -2rem;
+margin-top: 0rem;
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
 object-fit: cover;
+
 }
 
 .section_4-5
