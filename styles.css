@@ -1373,8 +1373,8 @@ footer
     display: flex;
     justify-content: center;
     margin-right: 10rem;
-    padding-left: 1rem;
-    margin-left: 0rem;
+    padding-left: 0rem;
+    margin-left: 1rem;
     height: 40px;
     width: 30%;
     margin-bottom: 0.7rem;
@@ -1387,9 +1387,9 @@ display: flex;
 justify-content: center;
 margin-right: 1rem;
 padding-left: 0rem;
-margin-left: 0rem;
+margin-left: 1rem;
 height: 40px;
-width: 52%;
+width: 42%;
 margin-bottom: 0.7rem;
 }
 
@@ -1637,7 +1637,7 @@ footer
 flex-direction: column;
 height: auto;
 margin-left: -2rem;
-padding-right: 4rem;
+padding-right: 5²rem;
 }
 
 .titreBP
