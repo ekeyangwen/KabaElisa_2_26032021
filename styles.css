@@ -1644,5 +1644,13 @@ padding-right: 4rem;
 {
     font-size: 1rem;
 }
+}
+
+@media all and (max-width:375px){
+
+.nav1
+{
+    margin-left: -2rem;
+}
 
 }
