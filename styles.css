@@ -7,26 +7,21 @@ src: url('Font/Raleway-VariableFont_wght.ttf') format('truetype');
 font-weight:normal;
 font-style: normal;
 }
-/* Large devices (desktops, less than 1200px)
-@media all and (max-width: 1199.98px) {*/
 
-/* X-Large devices (large desktops, less than 1400px)
-@media all and (max-width: 1399.98px) {*/
 
 body
 {
 
 font-family: "Raleway", Arial, sans-serif;
 line-height: 1.5em;
+margin: 0rem;
 
 
 }
 
 .conteneur
 {
-margin:3rem;
-margin-top: 0rem;
-position: absolute;
+margin: 2rem;
 }
 
 a
@@ -35,6 +30,17 @@ color: black;
 font-size: 1rem;
 text-decoration: none;
 }
+
+
+h1
+{
+padding:0rem;
+margin-top:3rem;
+line-height: 0.2rem;
+margin-left: 0rem;
+font-size: 1.4rem;
+}
+
 h2
 {
 font-size: 1.2rem;
@@ -42,42 +48,43 @@ margin-top: 2rem;
 margin-bottom: 0.5rem;
 
 }
-h3
-{
-color: black;
-font-weight: bold;
-
-}  
 
 p
 {
 margin-bottom: 0rem;
 }
-.entete
+
+header
 {
 display: flex;
 flex-flow: row nowrap;
 justify-content: space-between;
-margin-top: 2.3rem;
+margin-top: 2.5rem;
 }
 .logo_reservia
 {
-margin-top: 1rem;
+margin-top: -1rem;
 }
 
 .menubleu
 {
 display: flex;
 flex-direction: row;
-
+margin-right: 0rem;
 
 }
-ul
+
+.nav_1
 {
 display: flex;
 flex-direction: row;
+flex-wrap: nowrap;
+margin-top: 0rem;
 
-} li
+}
+
+
+ul li
 {
 
 list-style-type:none;  
@@ -87,29 +94,26 @@ list-style-type:none;
 .nav1
 {
 
-
 margin: 1rem;
-color: gray;
-
+color: grey;
+padding-right: 2rem;
 }
 
 .nav2
 {
 
-margin: 3rem;
-
+margin: 1rem;
 color: gray;
-
+padding-right: 2rem;
 }
 
 .nav1:hover
 {
 color:#0065FC;
-
 border-top: solid;
 border-color: #0065fc;
-padding-top: 3.2rem;
-
+padding-top: 2rem;
+padding-right: 0rem;
 }
 
 .nav2:hover
@@ -118,17 +122,19 @@ color:#0065FC;
 
 border-top: solid;
 border-color: #0065fc;
-padding-top: 3.2rem;
+padding-top: 2rem;
+padding-right: 0rem;
 }
 
-.nav3
+.inscrire
 {
 margin-left: 1rem;
 color: #0065FC;
 
 }
 
-.titre_section1
+
+.nature
 {
 padding:0rem;
 margin-top:3rem;
@@ -140,7 +146,6 @@ font-size: 1.4rem;
 .formulaire
 {
 margin-top: 1.5em;
-margin-left: 1rem;
 }
 
 .fa-map-marker-alt
@@ -195,42 +200,79 @@ display: none;
 font-weight: bold;
 display: flex;
 margin: 2rem;
-justify-content: space-around;
 flex-wrap: nowrap;
-align-items: center;
+align-items: baseline;
 margin-left: 0rem;
-width:72%;
+width:100%;
 }
 
 
 .theme
 {
-
-margin: 0.5rem;
-margin-right: 1rem;
-padding-right: 3rem;
+margin-right: 0rem;
+padding-right: 0rem;
 }
 
 .logo
 {  
-
+display: flex;
 font-weight: bold;
 border-top: solid;
 border-bottom: solid;
 border-right: solid;
 border-radius:50px ;
 border-color:#F2F2F2;
-border-top-left-radius: 0px;
-border-bottom-left-radius: 0px;
+border-top-left-radius: 29px;
+border-bottom-left-radius: 29px;
 padding-right: 1rem;
-
+margin-left: 2rem;
+padding-left: 1rem;
+width: %;
 }
+
+.logo_rom
+{
+display: flex;
+    font-weight: bold;
+border-top: solid;
+border-bottom: solid;
+border-right: solid;
+border-radius:50px ;
+border-color:#F2F2F2;
+border-top-left-radius: 29px;
+border-bottom-left-radius: 29px;
+padding-right: 1rem;
+margin-left: 1rem;
+padding-left: 1rem;
+width: 9%;
+}
+
+.logo_dog
+{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+        font-weight: bold;
+border-top: solid;
+border-bottom: solid;
+border-right: solid;
+border-radius:50px ;
+border-color:#F2F2F2;
+border-top-left-radius: 29px;
+border-bottom-left-radius: 29px;
+padding-right: 0rem;
+margin-left: 1rem;
+padding-left: 1rem;
+width: 14%;
+}
+
 .theme_log
 {
 
 margin: 0.5rem;
 
 }
+
 .logo:hover
 {
 border: none;
@@ -239,6 +281,23 @@ font-size: 1rem;
 
 }
 
+.logo_rom:hover
+{
+border: none;
+background-color: #DEECFF;
+font-size: 1rem;
+
+}
+
+.logo_dog:hover
+{
+
+border: none;
+background-color: #DEECFF;
+font-size: 1rem;
+
+
+}
 
 .fa-money-bill-wave
 {
@@ -249,7 +308,7 @@ height: 17px;
 padding: 1rem;
 margin-right:0.5rem;
 border-radius:50%;
-margin-left: -1.7rem;
+margin-left: -2.3rem;
 
 }
 .fa-child
@@ -290,19 +349,26 @@ padding-left: 1.1rem;
 border-radius:50%;
 margin-left: -1.5rem;
 }
-
+.info_logements
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+}
 .fa-info
 {
 border: solid 3px;
 border-color: #F2F2F2;
 color: #0065FC;
 background-color: white;
-height: 15px;
-width: 15px;
+height: 14px;
+width: 14px;
 font-size: 0.7rem;
-margin: 1rem;
 padding: 0.5rem;
 border-radius: 50%;
+margin-right: 1rem;
+margin-bottom: 1rems;
 }
 
 .fa-info:before
@@ -314,8 +380,19 @@ padding-left: 0.3rem;
 {
 display:flex;
 flex-direction: row;
-
+width: 100%;
+margin: 0rem;
 }
+
+h3
+{
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: -1rem;
+
+}  
+
 
 .section_2
 {
@@ -359,13 +436,13 @@ width: 20%;
 font-weight: bold;
 border: none;
 background-color:#F2F2F2;
+font-family: 'Raleway', Arial, sans-serif;
 padding: 1rem;
 }
 
 .cartes_section2
 {
 display: flex;
-justify-content: space-between;
 flex-flow: wrap row;
 }
 
@@ -394,6 +471,19 @@ object-fit: cover;
 padding: 0.1rem;
 }
 
+.carte_2-resize
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    width: 29%;
+    height: 100%;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    box-shadow: 3px 3px 3px #ebebeb;
+}
 
 
 .section_3
@@ -405,8 +495,9 @@ margin-left: 2rem;
 padding-left: 1rem;
 padding-right: 2rem;
 background-color: #F2F2F2;
-width: 38%;
+width: 33%;
 border-radius: 25px;
+
 }
 
 .ensemble_titre3
@@ -430,13 +521,12 @@ font-size: 1rem;
 {
 display:flex;
 flex-direction: column;
-margin-top: 0rem;
+margin-top: 0.5rem;
 }
 
-.titrex
+p
 {
-line-height: 0rem;
-margin-bottom: 0rem;
+    font-size:0.8rem;
 }
 
 .soleil-matin
@@ -450,8 +540,8 @@ border-radius: 20px;
 background-color: white;
 height: 149px;
 padding: 0.3rem;
-padding-right: 1rem;
-margin: 0.5rem;
+width: 100%;
+margin-bottom: 1rem;
 box-shadow: 3px 3px 3px #ebebeb;
 }
 
@@ -480,7 +570,9 @@ object-fit: cover;
 
 .stars
 {
+
 margin-top: 2rem;
+
 }
 .partie_4
 {
@@ -520,7 +612,7 @@ grid-column-end: 1;
 grid-row-start: 2;
 grid-row-end: 5;
 align-self: start;
-height: 128%;
+height: 129%;
 width: 96%;
 margin-left: 0rem;
 border-radius: 20px;
@@ -540,7 +632,7 @@ margin-bottom: 0rem;
 {
 object-fit: cover;
 width: 100%;
-height: 380px;
+height: 411px;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 
@@ -627,7 +719,7 @@ align-self: start;
 .calanques
 {
 width: 100%;
-height:100%;
+height:330px;
 margin-left: 0rem;
 margin-top: 0rem;
 border-top-left-radius: 20px;
@@ -639,7 +731,7 @@ border-top-right-radius: 20px;
 
 object-fit: cover;
 width: 100%;
-height: 380px; 
+height: 410px; 
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
@@ -708,14 +800,14 @@ border-top-left-radius: 20px;
 border-top-right-radius: 20px;  
 }
 
-.bas_de_page
+footer
 {
-display: flex;
-flex-direction: row;
-background-color: #ebebeb;
-margin: -3rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #ebebeb;
+    margin: -2rem;
+    }
 
-}
 .titreBP
 {
 margin-bottom: 1rem;
@@ -726,7 +818,7 @@ display:flex;
 flex-direction: column;
 margin: 3rem;
 margin-right: 10rem;
-line-height: 0.5rem;
+line-height: 1rem;
 }
 
 .foot_heb
@@ -735,193 +827,164 @@ display:flex;
 flex-direction: column;
 margin: 3rem;
 margin-right: 13rem;
-line-height: 0.5rem;
+line-height: 1rem;
 }
 .assistance
 {
 display:flex;
 flex-direction: column;
-line-height: 0.5rem;
+line-height: 1rem;
 margin: 3rem;
 }
 
-@media all and (max-width:1127px){
 
-body
-{
-    
+@media all and (max-width:1024px) {
 
-font-size: 100%;
-width: 100%;
-}
-header
-{
-width: 100%;
-}
+    .menubleu
+    {
+        padding-left: 23rem;
+    }
+     
 
-.entete
-{
-    padding-left: 3rem;
-}
-
-.menubleu
-{
-padding-left: 14rem;
-padding-top: 1rem;
-}
-
-}
-.titre_section1
-{
-line-height: 2.5rem;
-font-size: 150%;
-}  
-h1
-{
-
-
-width: 100%;
-}
-h2
-{
-margin-left: 1rem;
-font-size: 1rem;
-}
-
-.filtres    
-{
-
-width: 100%;
-}
-
-
-.logo
-{
-font-weight: bold;
-border-top: solid;
-border-bottom: solid;
-border-right: solid;
-border-radius:50px ;
-border-color:#F2F2F2;
-border-top-left-radius: 0px;
-border-bottom-left-radius: 0px;
-padding-right: 1rem;
-margin-right: 2rem;
-}
-
-.logo:hover
-{
-border: none;
-background-color: #DEECFF;
-font-size: 1rem;
-
-}
-
-.carte_section2
-{
-width: 100%;
-position: absolute;
-margin: 0rem;
-flex-wrap: wrap;
-
-}
-
-.titre
-{
-width: auto;
-font-size: 80%;
-
-}
-
-
-.titrex
-{
-width: auto;
-font-size: 80%;
-line-height: 0rem;
-margin-bottom: 0rem;
-}
-
-p
-{
-width: auto;
-font-size: 80%;
-}
-
-.section_4
-{
-    display: grid;
-    grid-template-columns: 25% 23% 24% 23%;
-    grid-template-rows: 12% 13% 12% 13%;
-    grid-column-gap: 1rem;
-    margin-bottom: -5rem;
-
-}
-.carte_1-4
-{
-    height: auto;
-}
-.carte_4-4
-{
-height: auto;
-}
-
-.frioul
-{
-    margin-top: 1rem;
-
-}
-
-.longchamp
-{
-
-    margin-top: 1rem;
+    .logo
+    {
+        width: 14%;
     }
 
+    .logo_rom
+    {
+        width: 14%;
+    }
 
-
-
-}
-
-@media all and (max-width:991.98px){ /*tablettes*/
-
-.conteneur
-{
-    margin: 0rem;
-    width: 100%;
-}
+    .logo_dog
+    {
+        width: 20%;
+    }
+    .info_logements
+        {
+            display: flex;
+        
+        }
     
-.entete
-{
-justify-content: flex-start;
+        .section_2
+        {
+            width: 83%;
+        }
+    
+        .carte_2
+        {
+            width: 28%;
+        }
+        
+        .section_3
+        {
+            margin-right: 0;
+        }
+    
+        .section_4
+         {
+            grid-template-columns: 23% 23% 23% 23%;
+            grid-template-rows: 10% 20% 20%;
+            grid-column-gap: 1.5rem;
+            grid-row-gap: 2rem;
+        }
+    .carte_1-4
+    {
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
 
-}    
-.menubleu
+    .port_img
+    {
+        height: 268px;
+    }
+    
+    .carte_2-4 
+    {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 100%;
+    }
+
+    .pomegue_img
  {
-
-    margin-left: 5rem;
+     height: 92%;
  }
 
-.titre_section1
-{
-width: auto;
-font-size: 75%;
-margin-left: 2rem;
+    .carte_3-4
+    {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+height: 100%;
+    }
 
-}
+    .carte_4-4
+    {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 100%;
+    } 
+    
+    .calanques_img
+    {
+    height: 265px;
+    }
 
-.formulaire
-{
-display: flex;
-max-width: 100%;
-margin-left: 2rem;
+    .carte_5-4 
+    {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 100%;
+    }
 
-}
+    .lagarde_img
+    {
+        height: 92%;
+    }
 
-.champville
-{
-max-width: 70%;
-}
+    .carte_6-4
+     {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        height: 100%;
+    }
+    
+    footer
+    
+    {
+    
+        width: 100%;
+        height: 217px;
+        margin-left: -2rem;
+        padding-right: 4rem;
+    }
+    
+    
+    
+    }
+    
+
+@media all and (max-width:768px){ /*tablettes*/
+
+    
+    
+.menubleu
+ {
+padding-left: 2rem;
+ }
 
 .nav1
 {
@@ -933,9 +996,34 @@ padding-left: 1rem;
 padding-left: 1rem;
 }
 
-.nav3
+h1
 {
-padding-left: 0rem;
+width: auto;
+font-size: 150%;
+
+
+}
+
+.nature
+{
+
+font-size: 100%;
+
+    
+}
+
+.formulaire
+{
+display: flex;
+max-width: 100%;
+
+
+}
+
+.champville
+{
+max-width: 70%;
+margin-right: -1rem;
 }
 
 .search_button
@@ -948,90 +1036,85 @@ display: none;
 display: flex;
 background-color: #0065fc;
 font-size: 15px;
-padding: 1.1rem;
-border-radius: 0px 13px 13px 0px;
+padding: 2rem;
+border-radius: 13px 13px 13px 13px;
 border:none;
 color: white;
 font-weight: bold;
 }
 
-.filtres {
-flex-wrap: wrap;
+.filtres 
+{
 
+width: 100%;
 }
+
+.theme
+{
+
+    margin-right: 1rem;
+}
+
+.theme_log
+{
+    font-size: 0.7rem;
+}
+
+.logo_dog
+{
+
+    width: 22%;
+}
+
 
 .section_2et3
 {
-flex-direction: column-reverse;
+
+
+    flex-direction: column-reverse;
+    
+}
+
+.section_3
+{
+    padding-right: 5rem;
+    width: 86%;
+    margin-left: -2rem;
+    padding-left: 5rem;
+    border-radius: 0px;
+  }
+
+.img_3
+{
+
+    width: 83%;
 }
 
 .section_2
 {
-
+    padding-right: 0rem;
+    width: 93%;
+    margin-left: -2rem;
+    padding-left: 5rem;
     border-radius: 0px;
-    padding: 0rem;
-    padding-bottom: 1rem;
-    width: 100%;
-    margin: 0rem;
+    background-color: white;
 }
 
-.cartes_section2
+h2
 {
-    margin: 3rem;
+    padding-left: 1rem;
 }
+
 .carte_2
 {
-width: 25%;
+    width: 29%;
 }
 
-.Plus_bouton
-{
-width: 33%;
-padding-left: 0rem;
-background-color: white;
-margin-left: 3.5rem;
-}
-
-
-
-.section_3
-{
-border-radius: 0px;
-padding: 0rem;
-padding-bottom: 1rem;
-width: 100%;
-margin: 0rem;
-}
-
-.ensemble_titre3
-{
-    justify-content: flex-start;
-}
-
-.fa-chart-line
-{
-    margin-left:47rem;
-}
-
-.cartes_section3
-{
-    display: flex;
-    flex-direction: row;
-    margin-top: 0rem;
-    width: 84%;
-    margin: 3rem;
-}
-
-.soleil-matin
-{
-justify-content: center;
-
-}
 
 .section_4
 {
 grid-template-columns: 50% 50%;
-grid-template-rows: 6% 21% 17% 26% 17%;
+grid-template-rows: 6% 17% 17% 17% 17%;
 background-color: white;
 
 }
@@ -1046,12 +1129,14 @@ grid-row-end: 1;
 
 .carte_1-4
 {
-grid-column-start: 1;
-grid-column-end: 2;
-grid-row-start: 2;
-grid-row-end: 2;
-width: 150%;
-margin-left: 7rem;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 160%;
+    height: 317px;
+    margin-left: 6rem;
+ margin-top: 1rem;
 }
 
 .port
@@ -1066,10 +1151,10 @@ height: 78%;
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-    width: 60%;
-    height: 60%;
+    width: 72%;
+    height: 58%;
     margin-left: 7rem;
-    margin-top: 2rem;
+margin-top: 5rem;
 }
 
 .carte_3-4
@@ -1078,20 +1163,28 @@ height: 78%;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 3;
-    width: 70%;
-    height: 65%;
-    margin-top: 1rem;
+    width: 80%;
+    height: 55%;
+    margin-top: 5rem;
+      margin-left: 0rem;
+    margin-bottom: 5rem;
 }
 
+.frioul_img
+{
+
+    height: 106%;
+}
 .carte_4-4
 {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
-    width: 150%;
-    margin-left: 7rem;
-    margin-top: 5rem;
+    width: 160%;
+    height: 317px;
+    margin-left: 6rem;
+ margin-top: 1rem;
 }
 
 
@@ -1103,8 +1196,8 @@ height: 78%;
     grid-row-end: 6;
     width: 80%;
     height: 55%;
-    margin-left: 3rem;
-    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
 }
 
 .carte_6-4
@@ -1113,31 +1206,443 @@ height: 78%;
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 5;
-    width: 60%;
-    height: 90%;
-    margin-top: 1rem;
+    width: 72%;
+    height: 58%;
+    margin-left: 2rem;
+    margin-top: 5rem;
 }
 
-.bas_de_page
+footer
 {
-
-width: 100%;
-margin: 0rem;
-padding:2rem;
+    margin: -3rem;
+    padding-right: 5rem;
+    height: 100%;
 }
 
 .apropos
 {
-    margin-right: 4rem;
+    margin-right: 0rem;
+}
+
+.foot_heb
+{
+        margin-right: 6rem;
 }
 
 }
-// X-Small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
 
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
+@media all and (max-width:425px){
+
+    
+.logo_reservia
+{
+    margin-top: -8rem;
+    margin-left: -0.5rem
+    
+}
+
+    .menubleu
+    {
+        flex-direction: column-reverse;
+        padding-left: 0rem;
+        margin-left: 1rem;
+    }
 
 
+    .nav_1 {
+        border-bottom: solid;
+    border-color: #F2F2F2;
+    padding-bottom: 0.5rem;
+    margin-top: 4rem;
+    margin-left: -15rem;
+    padding-left: 9rem;
+    margin-right: -2rem;
+    }
+
+    .nav1
+    {
+        margin-left: -6rem;
+    padding-left: 0rem;
+
+    
+    }
+    
+    .nav1:hover
+    {
+        color:#0065FC;
+        border-top: none;
+        border-bottom: solid;
+        border-color: #0065fc;
+        padding-bottom: 0.5rem; 
+ padding-right: 2rem;
+    }
+    
+    .nav2
+    {
+            padding-left: 7rem;
+            margin-left: -4rem;
+            padding-right: 0rem;
+    }
+    
+    .nav2:hover
+    {
+        color:#0065FC;
+    border-top: none;
+        border-bottom: solid;
+        border-color: #0065fc;
+        padding-bottom: 0.5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .inscrire
+    {
+    
+        padding-top: 0rem;
+        margin-left: 3rem;
+    }
+
+    h1
+    {
+        margin-left: 0rem;
+        line-height: 1.5rem;
+        margin-bottom: 0rem;
+    }
+    
+    .nature
+    {
+        display: flex;
+        width: 100%;
+        margin-right: 0rem;
+        margin-top: 1rem;
+    }
+.formulaire
+{
+    width: 92%;
+    height: 3.5rem;
+}
+
+.fa-map-marker-alt
+{
+    font-size: 1.5rem;
+}
+
+.loupe_button
+{
+    font-size: 1rem;
+    padding: 1rem;
+    padding-right: 1rem;
+
+}
+.fa-search:before 
+{
+
+    padding-right: 0.2rem;
+}
+
+
+.filtres
+{
+    margin-left: 0rem;
+    flex-wrap: wrap;
+}
+
+.theme
+{
+    margin: 0rem;
+    padding-right:13rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    padding-left: 0rem;
+    margin-left: 1.2rem;
+    height: 40px;
+    width: 30%;
+    margin-bottom: 0.7rem;
+}
+
+
+.logo_rom
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 10rem;
+    padding-left: 1rem;
+    margin-left: 0rem;
+    height: 40px;
+    width: 30%;
+    margin-bottom: 0.7rem;
+}
+
+.logo_dog
+{
+
+display: flex;
+justify-content: center;
+margin-right: 1rem;
+padding-left: 0rem;
+margin-left: 0rem;
+height: 40px;
+width: 52%;
+margin-bottom: 0.7rem;
+}
+
+.fa-money-bill-wave
+{
+margin-left: -0.8rem;
+width: 12px;
+    height: 12px;
+    margin-top: -0.1rem;
+}
+
+
+.fa-money-bill-wave::before
+{
+margin: -0.3rem;
+}
+
+.fa-child
+{
+    margin-left: -0.8rem;
+    width: 12px;
+    height: 12px;
+    margin-top: -0.1rem;
+}
+
+.fa-child::before
+{
+
+
+    margin: -0.3rem;
+}
+
+.fa-heart
+{
+    margin-left: -0.8rem;
+    width: 12px;
+    height: 12px;
+    margin-top: -0.1rem;
+}
+
+.fa-heart::before
+{    
+margin: -0.2rem;
+}
+.fa-dog
+{
+    margin-left: -0.8rem;
+    width: 12px;
+    height: 12px;
+    margin-top: -0.1rem;
+}
+
+.fa-dog::before
+{
+    
+margin: -0.3rem;
+}
+
+
+.fa-info
+{
+
+    margin-right: 2.5rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+
+.info_logements
+{
+display: flex;
+flex-direction: row;
+margin-bottom: 2rem;
+margin-right: 0rem;
+}
+
+.nb_logement
+{
+    padding-top: 0.5rem;
+    margin-left: -2rem;
+    line-height: 1.2rem;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.info_logements
+ {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+}
+
+.section_3 {
+
+    width: 100%;
+    margin-left: -2rem;
+    border-radius: 0px;
+    padding: 2rem;
+}
+
+
+.img_3
+{
+    width: 43%;
+}
+
+.section_2
+{
+    
+    width: 100%;
+    margin-left: -2rem;
+    border-radius: 0px;
+    padding: 1rem;
+}
+
+.cartes_section2
+{
+
+    flex-direction: column;
+}
+
+.carte_2
+{
+    width: 95%;
+
+}
+
+.carte_2-resize
+{
+
+    width: 95%;
+}
+
+.Plus_bouton
+{
+    width: 40%;
+    padding: 1rem;
+background-color: white;
+}
+
+.section_4
+{
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 10% 10% 10% 10% 10% 10%;
+    grid-row-gap: 1rem;
+    margin-bottom: -35rem;
+}
+
+.carte_1-4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 95%;
+    height: 100%;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  
+}
+
+.port_img
+{
+    height: 140px;
+}
+
+.carte_2-4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 95%;
+    height: 100%;
+    margin-top: 0rem;
+    margin-left: 0rem;
+
+}
+
+.pomegue_img {
+    height: 92%;
+}
+
+.carte_3-4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 95%;
+    height: 100%;
+    margin-top: 0rem;
+    margin-bottom:0rem;
+}
+
+.frioul
+{
+
+    height: 75%;
+}
+
+.carte_4-4
+{
+ grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    width: 95%;
+    height: 100%;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    
+}
+
+.calanques_img
+{
+
+    height: 139px;
+}
+.carte_5-4
+{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    width: 95%;
+    height: 100%;
+      margin-top: 0rem;
+      margin-left: 0rem;
+  
+  }
+
+
+
+.carte_6-4
+{ grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    width: 95%;
+    height: 100%;
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+
+footer
+{
+flex-direction: column;
+height: auto;
+margin-left: -2rem;
+padding-right: 4rem;
+}
+
+.titreBP
+{
+    font-size: 1rem;
+}
 
 }
