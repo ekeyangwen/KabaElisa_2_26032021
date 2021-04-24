@@ -227,7 +227,24 @@ border-bottom-left-radius: 29px;
 padding-right: 1rem;
 margin-left: 2rem;
 padding-left: 1rem;
-width: %;
+
+}
+
+.logo_fam
+{  
+display: flex;
+font-weight: bold;
+border-top: solid;
+border-bottom: solid;
+border-right: solid;
+border-radius:50px ;
+border-color:#F2F2F2;
+border-top-left-radius: 29px;
+border-bottom-left-radius: 29px;
+padding-right: 1rem;
+margin-left: 2rem;
+padding-left: 1rem;
+
 }
 
 .logo_rom
@@ -274,6 +291,14 @@ margin: 0.5rem;
 }
 
 .logo:hover
+{
+border: none;
+background-color: #DEECFF;
+font-size: 1rem;
+
+}
+
+.logo_fam:hover
 {
 border: none;
 background-color: #DEECFF;
@@ -538,7 +563,6 @@ flex-direction: row;
 flex-wrap: nowrap;
 border-radius: 20px;
 background-color: white;
-height: 149px;
 padding: 0.3rem;
 width: 100%;
 margin-bottom: 1rem;
@@ -571,7 +595,7 @@ object-fit: cover;
 .stars
 {
 
-margin-top: 2rem;
+margin-top: 4rem;
 
 }
 .partie_4
@@ -851,6 +875,11 @@ margin: 3rem;
         width: 14%;
     }
 
+    .logo_fam
+    {
+        width: 14%;
+    }
+
     .logo_rom
     {
         width: 14%;
@@ -999,7 +1028,7 @@ padding-left: 1rem;
 h1
 {
 width: auto;
-font-size: 150%;
+font-size: 100%;
 
 
 }
@@ -1245,11 +1274,12 @@ footer
     {
         flex-direction: column-reverse;
         padding-left: 0rem;
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 
 
-    .nav_1 {
+    .nav_1
+     {
         border-bottom: solid;
     border-color: #F2F2F2;
     padding-bottom: 0.5rem;
@@ -1261,9 +1291,8 @@ footer
 
     .nav1
     {
-        margin-left: -6rem;
-    padding-left: 0rem;
-
+        margin-left: -5rem;
+    
     
     }
     
@@ -1273,10 +1302,11 @@ footer
         border-top: none;
         border-bottom: solid;
         border-color: #0065fc;
-        padding-bottom: 0.5rem; 
- padding-right: 2rem;
+        padding-bottom: 0.7rem; 
+ margin-left: -7rem;
+ padding-left: 3rem;
     }
-    
+
     .nav2
     {
             padding-left: 7rem;
@@ -1359,19 +1389,35 @@ footer
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-right: 1rem;
     padding-left: 0rem;
-    margin-left: 1.2rem;
+    padding-right: 2rem;
+    margin-left:0.5rem;
     height: 40px;
     width: 30%;
     margin-bottom: 0.7rem;
 }
 
+.logo_fam
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left:0.5rem;
+    height: 40px;
+    width: 30%;
+    margin-bottom: 0.7rem;
+}
 
 .logo_rom
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-right: 10rem;
     padding-left: 0rem;
     margin-left: 1rem;
@@ -1385,19 +1431,26 @@ footer
 
 display: flex;
 justify-content: center;
+align-items: center;
 margin-right: 1rem;
 padding-left: 0rem;
-margin-left: 1rem;
+margin-left: 0rem;
 height: 40px;
 width: 47%;
 margin-bottom: 0.7rem;
 }
 
+.theme_log
+{
+    margin: 0.5rem;
+    margin-left: 0.5rem;
+}
+
 .fa-money-bill-wave
 {
-margin-left: -0.8rem;
-width: 12px;
-    height: 12px;
+margin-left: 1rem;
+width: 13px;
+    height: 13px;
     margin-top: -0.1rem;
 }
 
@@ -1409,10 +1462,10 @@ margin: -0.3rem;
 
 .fa-child
 {
-    margin-left: -0.8rem;
-    width: 12px;
-    height: 12px;
-    margin-top: -0.1rem;
+
+    width: 13px;
+    height: 13px;
+margin-right: 0rem;
 }
 
 .fa-child::before
