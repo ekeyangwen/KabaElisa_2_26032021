@@ -259,9 +259,9 @@ border-color:#F2F2F2;
 border-top-left-radius: 29px;
 border-bottom-left-radius: 29px;
 padding-right: 1rem;
-margin-left: 1rem;
+margin-left: 2rem;
 padding-left: 1rem;
-width: 9%;
+
 }
 
 .logo_dog
@@ -602,15 +602,18 @@ margin-top: 4rem;
 {
     height: 50%;
 }
-.section_4
+
+.section_4 
 {
-display: grid;
-grid-template-columns:23% 23% 23% 23%;
-grid-template-rows: 12% 13% 12% 13% ;
-grid-column-gap: 2rem;
-grid-row-gap: 1rem;
-margin-bottom: -11rem;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 6% 20% 20% 20%;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    margin-bottom: -5rem;
+    margin-top: 5rem;
 }
+
 .T4
 {
 
@@ -636,7 +639,7 @@ grid-column-end: 1;
 grid-row-start: 2;
 grid-row-end: 5;
 align-self: start;
-height: 129%;
+height: 100%;
 width: 96%;
 margin-left: 0rem;
 border-radius: 20px;
@@ -656,7 +659,7 @@ margin-bottom: 0rem;
 {
 object-fit: cover;
 width: 100%;
-height: 411px;
+height: 88%;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 
@@ -703,7 +706,7 @@ grid-column-end: 3;
 grid-row-start: 4;
 grid-row-end: 5;
 align-self: start;
-height: 191%; 
+height: 100%; 
 margin-left: 0rem;
 border-radius: 20px;
 box-shadow: 3px 3px 3px #EBEBEB;
@@ -734,7 +737,7 @@ grid-column-start: 3;
 grid-column-end: 4;
 grid-row-start: 2;
 grid-row-end: 5;
-height: 128%;
+height: 100%;
 width: 96%;
 border-radius: 20px;
 box-shadow: 3px 3px 3px #EBEBEB;
@@ -743,7 +746,7 @@ align-self: start;
 .calanques
 {
 width: 100%;
-height:330px;
+height:100%;
 margin-left: 0rem;
 margin-top: 0rem;
 border-top-left-radius: 20px;
@@ -755,7 +758,7 @@ border-top-right-radius: 20px;
 
 object-fit: cover;
 width: 100%;
-height: 410px; 
+height: 88%; 
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
@@ -799,7 +802,7 @@ grid-column-start: 4;
 grid-column-end: 5;
 grid-row-start: 4;
 grid-row-end: 5; 
-height: 192%;
+height: 100%;
 margin-left: 0rem;
 border-radius: 20px;
 box-shadow: 3px 3px 3px #EBEBEB;
@@ -830,6 +833,7 @@ footer
     flex-direction: row;
     background-color: #ebebeb;
     margin: -2rem;
+    padding-top: 5rem;
     }
 
 .titreBP
@@ -925,12 +929,13 @@ margin: 3rem;
         grid-row-start: 2;
         grid-row-end: 4;
     }
-
-    .port_img
-    {
-        height: 268px;
-    }
     
+    .port_img
+     {
+
+height: 85%;
+     }
+
     .carte_2-4 
     {
         grid-column-start: 2;
@@ -965,7 +970,7 @@ height: 100%;
     
     .calanques_img
     {
-    height: 265px;
+    height: 78%;
     }
 
     .carte_5-4 
@@ -979,7 +984,7 @@ height: 100%;
 
     .lagarde_img
     {
-        height: 92%;
+        height: 63%;
     }
 
     .carte_6-4
@@ -1005,7 +1010,90 @@ height: 100%;
     
     }
     
+@media all and (max-width:991px) {
 
+.menubleu
+{
+    padding-left: 10rem;
+}
+
+.formulaire
+{
+
+    height: 53px;
+}
+
+.loupe_button
+{
+    padding: 1rem;
+}
+.filtres
+{
+    flex-wrap: wrap;
+    line-height: 2rem;
+}
+
+.logo_rom
+{
+    margin-right: 5rem;
+}
+.logo_dog
+{
+width: 26%;
+    margin-left: 4rem;
+}
+  
+
+.section_2et3
+{
+
+
+    flex-direction: column-reverse;
+    
+}
+
+.section_3
+{
+    padding-right: 5rem;
+    width: 86%;
+    margin-left: -2rem;
+    padding-left: 5rem;
+    border-radius: 0px;
+  }
+
+.img_3
+{
+
+    width: 83%;
+}
+
+.section_2
+{
+    padding-right: 0rem;
+    width: 93%;
+    margin-left: -2rem;
+    padding-left: 5rem;
+    border-radius: 0px;
+    background-color: white;
+}
+
+h2
+{
+    padding-left: 1rem;
+}
+
+.carte_2
+{
+    width: 29%;
+}
+
+footer
+{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+}
 @media all and (max-width:768px){ /*tablettes*/
 
     
@@ -1094,51 +1182,6 @@ width: 100%;
 
     width: 22%;
 }
-
-
-.section_2et3
-{
-
-
-    flex-direction: column-reverse;
-    
-}
-
-.section_3
-{
-    padding-right: 5rem;
-    width: 86%;
-    margin-left: -2rem;
-    padding-left: 5rem;
-    border-radius: 0px;
-  }
-
-.img_3
-{
-
-    width: 83%;
-}
-
-.section_2
-{
-    padding-right: 0rem;
-    width: 93%;
-    margin-left: -2rem;
-    padding-left: 5rem;
-    border-radius: 0px;
-    background-color: white;
-}
-
-h2
-{
-    padding-left: 1rem;
-}
-
-.carte_2
-{
-    width: 29%;
-}
-
 
 .section_4
 {
@@ -1245,7 +1288,7 @@ footer
 {
     margin: -3rem;
     padding-right: 5rem;
-    height: 100%;
+
 }
 
 .apropos
@@ -1260,7 +1303,7 @@ footer
 
 }
 
-@media all and (max-width:425px){
+@media all and (max-width:576px){
 
     
 .logo_reservia
@@ -1588,7 +1631,7 @@ background-color: white;
     grid-template-columns: 100%;
     grid-template-rows: 2% 10% 10% 10% 10% 10% 10%;
     grid-row-gap: 1rem;
-    margin-bottom: -35rem;
+    margin-bottom: -30rem;
 }
 
 .carte_1-4 {
