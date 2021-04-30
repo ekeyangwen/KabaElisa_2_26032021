@@ -14,15 +14,19 @@ body
 
 font-family: "Raleway", Arial, sans-serif;
 line-height: 1.5em;
-margin: 2rem;
+
 
 
 }
 
 .main
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 max-width: 1440px;
 justify-content: center;
+margin: 2rem;
 }
 
 a
