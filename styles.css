@@ -22,6 +22,7 @@ margin: 0rem;
 .main
 {
 margin: 2rem;
+max-width: 1440px;
 }
 
 a
@@ -74,7 +75,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
 margin-top: 0rem;
-margin-left: 60rem;
+margin-left: auto;
 
 }
 
@@ -844,6 +845,7 @@ display: flex;
 flex-direction: row;
 background-color: #ebebeb;
 padding-top: 1rem;
+
 }
 
 .titreBP
@@ -1329,8 +1331,9 @@ padding-left: 0rem;
 .inscrire:nth-child(3)
 {
     order: 2;
-    margin-right: 3rem;
+    margin-right: 0rem;
     margin-top: 1.8rem;
+    margin-left: 2rem;
 }
 
 ul
