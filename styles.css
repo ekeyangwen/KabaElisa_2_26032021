@@ -52,6 +52,7 @@ margin-bottom: 0.5rem;
 p
 {
 margin-bottom: 0rem;
+margin-top: 0rem;
 }
 
 header
@@ -73,7 +74,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
 margin-top: 0rem;
-margin-left: 25rem;
+margin-left: 60rem;
 
 }
 
@@ -107,7 +108,7 @@ padding-left: 2rem;
 margin: 1rem;
 color: gray;
 padding-right: 2rem;
-padding-left: 2rem;
+padding-left: 1rem;
 }
 
 .nav1:hover
@@ -415,14 +416,16 @@ margin: 0rem;
 h3
 {
 color: black;
-font-weight: bold;
-font-size: 0.8rem;
+font-weight: bolder;
+font-size: 1rem;
+margin-top: 0rem;
+margin-bottom: 0rem;
 }  
 .depassement
 {
     color: black;
 font-weight: bold;
-font-size: 0.8rem; 
+font-size: 1rem; 
 }
 
 .section_2
@@ -451,20 +454,24 @@ margin-bottom: 3rem;
 .bluestar
 {
 color: #0065FC;
-font-size: 0.8rem;
-
+font-size: 0.7rem;
+margin-right: 0rem;
+margin-left: 0rem;
 }
 
 .greystar
 {
 color:#EBEBEB;
-font-size: 0.8rem;
+font-size: 0.7rem;
+margin-right: 0rem;
+margin-left: 0rem;
 }
 
 .Plus_bouton
 {
 width: 20%;
 font-weight: bold;
+font-size: 1rem;
 border: none;
 background-color:#F2F2F2;
 font-family: 'Raleway', Arial, sans-serif;
@@ -613,10 +620,9 @@ height: 50%;
 {
 display: grid;
 grid-template-columns: 23% 23% 23% 23%;
-grid-template-rows: 6% 20% 20% 20%;
+grid-template-rows: 5% 20% 20% 5%;
 grid-column-gap: 2rem;
-grid-row-gap: 1rem;
-margin-bottom: -5rem;
+grid-row-gap: 2rem;
 margin-top: 2rem;
 }
 
@@ -645,7 +651,7 @@ grid-column-end: 1;
 grid-row-start: 2;
 grid-row-end: 5;
 align-self: start;
-height: 100%;
+height: 91%;
 width: 96%;
 margin-left: 0rem;
 border-radius: 20px;
@@ -676,9 +682,9 @@ border-top-right-radius: 20px;
 grid-column-start: 2;
 grid-column-end: 3;
 grid-row-start: 2;
-grid-row-end: 4;
+grid-row-end: 3;
 align-self: start;
-height: 100%; 
+height: 126%; 
 margin-left: 0rem;
 border-radius: 20px;
 box-shadow: 3px 3px 3px #EBEBEB;
@@ -709,10 +715,10 @@ border-top-right-radius: 20px;
 {
 grid-column-start: 2;
 grid-column-end: 3;
-grid-row-start: 4;
+grid-row-start: 3;
 grid-row-end: 5;
-align-self: start;
-height: 100%; 
+align-self: center;
+height: 67%; 
 margin-left: 0rem;
 border-radius: 20px;
 box-shadow: 3px 3px 3px #EBEBEB;
@@ -743,7 +749,7 @@ grid-column-start: 3;
 grid-column-end: 4;
 grid-row-start: 2;
 grid-row-end: 5;
-height: 100%;
+height: 91%;
 width: 96%;
 border-radius: 20px;
 box-shadow: 3px 3px 3px #EBEBEB;
@@ -775,7 +781,7 @@ grid-column-start: 4;
 grid-column-end: 5;
 grid-row-start: 2;
 grid-row-end: 3;
-height: 191%;
+height: 100%;
 margin-left: 0rem;
 border-radius: 20px;
 box-shadow: 3px 3px 3px #EBEBEB;
@@ -787,17 +793,16 @@ align-self: start;
 {
 
 width: 100%;
-height: 100%;
 margin-left: 0rem;
 margin-top: 0rem;
-
+height: 50%;
 }
 .lagarde_img
 {
 object-fit: cover;
 width: 100%;
-height: 100%;
-
+height: 150%;
+margin-right: 0rem;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;  
 }
@@ -806,13 +811,13 @@ border-top-right-radius: 20px;
 {
 grid-column-start: 4;
 grid-column-end: 5;
-grid-row-start: 4;
+grid-row-start: 3;
 grid-row-end: 5; 
-height: 100%;
+height: 60%;
 margin-left: 0rem;
 border-radius: 20px;
 box-shadow: 3px 3px 3px #EBEBEB;
-align-self: start;
+align-self: center;
 }
 
 .longchamp
@@ -838,8 +843,7 @@ footer
 display: flex;
 flex-direction: row;
 background-color: #ebebeb;
-
-padding-top: 5rem;
+padding-top: 1rem;
 }
 
 .titreBP
@@ -852,7 +856,7 @@ display:flex;
 flex-direction: column;
 margin: 3rem;
 margin-right: 10rem;
-line-height: 1rem;
+line-height: 2rem;
 }
 
 .foot_heb
@@ -861,13 +865,13 @@ display:flex;
 flex-direction: column;
 margin: 3rem;
 margin-right: 13rem;
-line-height: 1rem;
+line-height: 2rem;
 }
 .assistance
 {
 display:flex;
 flex-direction: column;
-line-height: 1rem;
+line-height: 2rem;
 margin: 3rem;
 }
 
@@ -1703,8 +1707,8 @@ height: 139px;
 {
 grid-column-start: 1;
 grid-column-end: 1;
-grid-row-start: 6;
-grid-row-end: 7;
+grid-row-start: 2;
+grid-row-end: 3;
 width: 95%;
 height: 100%;
     margin-top: 0rem;
