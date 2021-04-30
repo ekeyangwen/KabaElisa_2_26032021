@@ -1303,6 +1303,10 @@ margin-right: 0rem;
 
 @media all and (max-width:576px){
 
+.main
+{
+    margin: 0rem;
+}
 
 header
 {
@@ -1315,7 +1319,7 @@ header
     order: 1;
     height: 10%;
     margin-top: 1rem;
-    margin-left: 1rem;
+
 }
 
 .nav_1:nth-child(2)
@@ -1337,7 +1341,7 @@ padding-left: 0rem;
     order: 2;
     margin-right: 0rem;
     margin-top: 1.8rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
 }
 
 ul
