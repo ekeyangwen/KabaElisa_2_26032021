@@ -497,6 +497,10 @@ padding: 0.3rem;
 box-shadow: 3px 3px 3px #EBEBEB;
 }
 
+.stars_2
+{
+    padding-left: 1rem;
+}
 .img_2
 {
 
@@ -654,6 +658,8 @@ box-shadow: 3px 3px 3px #EBEBEB;
 padding-left: 1rem;
 font-size: 0.8rem;
 font-weight: bold;
+padding-top: 0.5rem;
+padding-bottom: 1rem;
 
 }
 
@@ -1425,18 +1431,18 @@ width: 96%;
 
 .carte_2
 {
-width: 93%;
+width: 100%;
 padding: 0rem;
-padding-bottom: 2rem;
+
 
 }
 
 .carte_2-resize
 {
 
-width: 93%;
+width: 100%;
 padding: 0rem;
-padding-bottom: 2rem;
+
 }
 
 .Plus_bouton
@@ -1486,7 +1492,7 @@ width: 100%;
 {
     margin: 0rem;
     width: 100%;
-    height: 220px;
+    height: 200px;
     margin-bottom: 2rem;
 }
 
