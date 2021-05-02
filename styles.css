@@ -4,20 +4,22 @@ body
 
 font-family: "Raleway", Arial, sans-serif;
 line-height: 1.5em;
-
-
-
+margin: 0rem;   
 }
+
 
 .main
 {
-    display: flex;
+    
+      display: flex;
     flex-direction: column;
     justify-content: center;
 max-width: 1440px;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
+
+
 }
 
 a
@@ -47,8 +49,7 @@ margin-bottom: 0.5rem;
 
 p
 {
-margin-bottom: 0rem;
-margin-top: 0rem;
+ margin: 0rem;
 }
 
 header
@@ -104,10 +105,10 @@ padding-left: 2rem;
 .nav2
 {
 
-margin: 1rem;
+margin-right: 4rem;
 color: gray;
 padding-right: 2rem;
-padding-left: 1rem;
+padding-left: 2rem;
 }
 
 .nav1:hover
@@ -115,17 +116,16 @@ padding-left: 1rem;
 color:#0065FC;
 border-top: solid;
 border-color: #0065fc;
-padding-top: 2rem;
+padding-top: 1rem;
 
 }
 
 .nav2:hover
 {
 color:#0065FC;
-
 border-top: solid;
 border-color: #0065fc;
-padding-top: 2rem;
+padding-top: 1rem;
 
 }
 
@@ -641,7 +641,7 @@ padding-bottom: 1rem;
 {
 display: flex;
 flex-direction: column;
-height: 450px;
+height: 466px;
 width: 21%;
 margin-left: 0rem;
 border-radius: 20px;
@@ -654,13 +654,14 @@ box-shadow: 3px 3px 3px #EBEBEB;
 padding-left: 1rem;
 font-size: 0.8rem;
 font-weight: bold;
+
 }
 
 .port_img
 {
 object-fit: cover;
 width: 100%;
-height: 400px;
+height: 417px;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
@@ -723,7 +724,7 @@ border-top-right-radius: 20px;
 
 object-fit: cover;
 width: 100%;
-height: 400px; 
+height: 417px; 
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
@@ -773,8 +774,10 @@ footer
 {
 display: flex;
 flex-direction: row;
+justify-content: space-around;
 background-color: #ebebeb;
 padding-top: 1rem;
+padding-right: 5rem;
 
 }
 
@@ -787,7 +790,7 @@ margin-bottom: 1rem;
 display:flex;
 flex-direction: column;
 margin: 3rem;
-margin-right: 10rem;
+margin-right: 2rem;
 line-height: 2rem;
 }
 
@@ -796,7 +799,7 @@ line-height: 2rem;
 display:flex;
 flex-direction: column;
 margin: 3rem;
-margin-right: 13rem;
+margin-right: 2rem;
 line-height: 2rem;
 }
 .assistance
@@ -804,7 +807,7 @@ line-height: 2rem;
 display:flex;
 flex-direction: column;
 line-height: 2rem;
-margin: 3rem;
+margin: 2rem;
 }
 
 
@@ -813,20 +816,13 @@ margin: 3rem;
 
     
 
-.logo
-{
-    width: 14%;
-}
+
 
 .logo_fam
 {
     width: 14%;
 }
 
-.logo_rom
-{
-    width: 14%;
-}
 
 .info_logements
     {
@@ -854,8 +850,9 @@ margin: 3rem;
 {
 
     width: 100%;
-    height: 217px;
-    padding-right: 4rem;
+bottom: 0;
+left: 0;
+right: 0;
 }
 
 
@@ -864,6 +861,12 @@ margin: 3rem;
 
 @media all and (max-width:991px) {
 
+header
+{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
     .logo_reservia
     {
         margin-left: 0rem;
@@ -871,6 +874,12 @@ margin: 3rem;
 .nav_1
 {
 margin-left: 0rem;
+}
+
+.main
+{
+    margin-left:2rem;
+    margin-right: 2rem;
 }
 
 .formulaire
@@ -901,8 +910,8 @@ margin-right: 5rem;
 
 
 flex-direction: column-reverse;
-padding-left: 1rem;
-width: 89%;
+padding-left: 0rem;
+width: 100%;
 
 }
 
@@ -992,11 +1001,11 @@ footer
 flex-direction: column;
 width: auto;
 height: 100%;
+
 }
 }
 
 @media all and (max-width:768px){ /*tablettes*/
-
 
 
 
@@ -1009,6 +1018,7 @@ padding-left: 1rem;
 .nav2
 {
 padding-left: 1rem;
+margin-right: 0rem;
 }
 
 h1
@@ -1096,10 +1106,7 @@ margin-right: 0rem;
 
 @media all and (max-width:576px){
 
-.main
-{
-    margin: 0rem;
-}
+
 
 header
 {
@@ -1112,6 +1119,7 @@ header
     order: 1;
     height: 10%;
     margin-top: 1rem;
+    margin-left: 2rem;
 
 }
 
@@ -1121,11 +1129,11 @@ header
 border-bottom: solid;
 border-color: #F2F2F2;
 width: 100%;
-margin: 0rem;
 margin-bottom: 0rem;
 margin-top: 1rem;
 padding-bottom: 1rem;
-padding-left: 0rem;
+padding-left: 1rem;
+
 
 }
 
@@ -1135,6 +1143,7 @@ padding-left: 0rem;
     margin-right: 0rem;
     margin-top: 1.8rem;
     margin-left: 0rem;
+    margin-right: 2rem;
 }
 
 ul
@@ -1164,9 +1173,8 @@ padding-left: 2rem;
 
 .nav2 
 {
-    padding-left: 2rem;
+    padding-left: 3rem;
     margin-right: 0rem;
-    margin-left: 3rem;
     padding-right: 2rem;
 }
 
@@ -1283,7 +1291,7 @@ justify-content: center;
 align-items: center;
 margin-right: 1rem;
 padding-left: 0rem;
-margin-left: 1rem;
+margin-left: 0.5rem;
 height: 40px;
 margin-bottom: 0.7rem;
 }
@@ -1385,10 +1393,10 @@ margin-left: 0rem;
 
 .section_3 {
 
-width: 100%;
-margin-left: -2rem;
+
 border-radius: 0px;
-padding: 2rem;
+margin-left: 0rem;
+padding-left: 0rem;
 }
 
 
@@ -1401,34 +1409,47 @@ width: 43%;
 {
 
 width: 100%;
-margin-left: -2rem;
 border-radius: 0px;
 padding: 1rem;
+padding-left: 0rem;
+padding-right: 0rem;
 }
 
 .cartes_section2
 {
 
 flex-direction: column;
+padding-right: 0rem;
+width: 96%;
 }
 
 .carte_2
 {
-width: 95%;
+width: 93%;
+padding: 0rem;
+padding-bottom: 2rem;
 
 }
 
 .carte_2-resize
 {
 
-width: 95%;
+width: 93%;
+padding: 0rem;
+padding-bottom: 2rem;
 }
 
 .Plus_bouton
 {
-width: 40%;
+width: 45%;
 padding: 1rem;
 
+}
+
+.quatre
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .carte_1-4
@@ -1465,7 +1486,7 @@ width: 100%;
 {
     margin: 0rem;
     width: 100%;
-    height: 200px;
+    height: 220px;
     margin-bottom: 2rem;
 }
 
@@ -1496,7 +1517,7 @@ footer
 {
 flex-direction: column;
 height: auto;
-padding-right: 4rem;
+
 }
 
 .titreBP
@@ -1507,6 +1528,18 @@ font-size: 1rem;
 
 @media all and (max-width:375px){
 
+    .conteneur
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav_1
+{
+    padding-left: 0rem;
+
+}
+
 .nav1
 {
 margin-left: 0rem;
@@ -1515,22 +1548,20 @@ margin-left: 0rem;
 .nav2
 {
 margin-left: 0rem;
+padding-left: 3rem;
 }
 
 .logo_dog
 {
 
-margin-left: 1rem;
+margin-left: 0rem;
 }
 
-.section_2et3
-{
-    width: 88%;
-}
 
 .carte_1-4
 {
     width: 98%;
+    padding-left: 0rem;
 }
 
 .carte_2-4
